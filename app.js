@@ -32,7 +32,7 @@ app.post("/calculate", (req, res) => {
         "LUdecomposition": [int, [floatArrayType, floatArrayType, floatArrayType, int, int]]
     })
 
-    const readyToUseArray = new floatArrayType(prepareArray(array));
+    const readyToUseArray = new floatArrayType(prepareArrsay(array));
     let l = new floatArrayType(readyToUseArray.length);
     let u = new floatArrayType(readyToUseArray.length);
 
